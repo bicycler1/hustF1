@@ -1,26 +1,39 @@
-.App {
-  text-align: center;
+/*通用样式---start*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;} 
+table {border-collapse:collapse;border-spacing:0;} 
+fieldset,img {border:0} 
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal} 
+ol,ul {list-style:none} 
+caption,th {text-align:left} 
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal} 
+q:before,q:after {content:''} 
+abbr,acronym { border:0}
+button{border:0px;background-color:transparent;}
+/*通用样式--end*/
+/*web head---start*/
+.web-head{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background: rgba(256,256,256,0.95);
+  border: 1px #222;
+  box-shadow: 0px 0px 3px #222;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
+.web-head-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*web head---end*/
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
